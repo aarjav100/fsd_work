@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: store-inventory-api
+    runtime: node
+    rootDir: store-inventory-api
+    buildCommand: npm ci
+    startCommand: npm start
